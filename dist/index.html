@@ -5,16 +5,16 @@
   <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
   <meta name="theme-color" content="#080a0d">
   <meta name="description" content="어둠을 밝히고 그림자를 베어 탈출하는 2D 탑다운 액션 로그라이크 프로토타입">
-  <title>랜턴 베어러</title>
+  <title>랜턴 컨실러</title>
   <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='4' fill='%23080a0d'/%3E%3Cpath d='M11 10h10l2 17H9z' fill='%23f5a623'/%3E%3Cpath d='M13 5h6v5h-6zM12 4h8v2h-8z' fill='%23ffe6a3'/%3E%3Cpath d='M14 14h4v9h-4z' fill='%23fff4c4'/%3E%3C/svg%3E">
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="extra.css">
 </head>
 <body>
   <main id="game-shell">
-    <canvas id="game" width="960" height="600" tabindex="0" aria-label="랜턴 베어러 게임 화면"></canvas>
+    <canvas id="game" width="960" height="600" tabindex="0" aria-label="랜턴 컨실러 게임 화면"></canvas>
     <section id="hud" aria-label="플레이어 상태">
-      <div class="brand"><span class="brand-mark">◆</span><span>랜턴 베어러</span></div>
+      <div class="brand"><span class="brand-mark">◆</span><span>랜턴 컨실러</span></div>
       <div class="meter hp"><span>체력</span><div><i id="hp-fill"></i></div><b id="hp-text">100</b></div>
       <div class="meter oil"><span>기름</span><div><i id="oil-fill"></i></div><b id="oil-text">100%</b></div>
       <div class="objective stage"><span>단계</span><b id="stage-text">1 / 3</b></div>
@@ -24,7 +24,7 @@
     <section id="start-screen" class="overlay">
       <div class="sigil">◇</div>
       <p class="eyebrow">THE DARK REMEMBERS</p>
-      <h1>랜턴 베어러</h1>
+      <h1>랜턴 컨실러</h1>
       <p>세 단계의 어둠을 지나 마지막 출구를 찾아라.</p>
       <button id="start-btn">어둠 속으로</button>
       <div class="controls"><span><kbd>WASD / 방향키</kbd> 이동 · 방향</span><span><kbd>좌클릭</kbd> 베기</span><span><kbd>우클릭</kbd> 대시</span><span><kbd>E</kbd> 상호작용</span><span><kbd>TAB</kbd> 지도</span></div>
